@@ -28,6 +28,7 @@ async fn main() -> Result<()> {
     eprintln!("getting shared Tor client...");
 
     let tor_client = get_tor_client()?;
+    // The BBC tor site
     let onion_address = "www.bbcweb3hytmzhn5d532owbu6oqadra5z3ar726vq5kgwwn6aucdccrad.onion:80";
 
     #[cfg(debug_assertions)]
