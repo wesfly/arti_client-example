@@ -1,10 +1,11 @@
 # ```arti_client``` example
 
-This repo demonstrates how to get the content of a hidden service via tor.
+This repo demonstrates how to get the content of a hidden service via tor using plain HTTP.
 
 More examples are available [here](https://gitlab.torproject.org/tpo/core/arti/-/tree/main/crates/arti-client/examples).
 
-If you figure out how to use it with HTTPS, please make pull request (me stoopid😅)
+When using contacting port 443, you'll probably get a ```400 Bad Request```, because it can only make HTTP requests.
+If you figure out how to use it with HTTPS, please make a pull request (me stoopid😅)
 
 ---
 
